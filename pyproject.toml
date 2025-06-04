@@ -1,13 +1,19 @@
 [project]
 name = "promptassembler"
 version = "0.1.0"
-description = "Add your description here"
+description = "prompt assembler"
 readme = "README.md"
 authors = [
     { name = "LIghtJUNction", email = "LIghtJUNction.me@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "click>=8.2.1",
+    "toml>=0.10.2",
+]
+
+[project.scripts]
+prompt="promptassembler.__main__:main"
 
 [build-system]
 requires = ["hatchling"]

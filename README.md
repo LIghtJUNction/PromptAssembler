@@ -15,11 +15,11 @@
 
 输入侧
 
--- Python代码仓库
+-- Python代码仓库 -- 本项目将仅实现python代码仓库的分析
 ... 其他语言代码仓库
 
 中间文件
-file.prompt文件
+file.desc文件
 
 输出侧
 
@@ -28,3 +28,5 @@ file.prompt文件
 -- 代码分析 Prompt生成
 -- 测试用例 Prompt生成
 -- 冗余代码清理 Prompt生成
+
+最终输出为.prompt文件
