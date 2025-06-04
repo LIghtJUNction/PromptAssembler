@@ -13,20 +13,20 @@
 ## 目标
 使得使用本项目对本项目进行PromptAssemble
 
-输入侧
+### 输入侧
 
--- Python代码仓库 -- 本项目将仅实现python代码仓库的分析
+> -- Python代码仓库 -- 本项目将仅实现python代码仓库的分析
 ... 其他语言代码仓库
 
-中间文件
-file.desc文件
+### 中间文件
+> file.py.meta文件
 
-输出侧
+### 输出侧
 
--- 项目重构 Prompt生成
--- BUG修复 Prompt生成
--- 代码分析 Prompt生成
--- 测试用例 Prompt生成
--- 冗余代码清理 Prompt生成
+> -- 项目重构 Prompt生成
+> -- BUG修复 Prompt生成
+> -- 代码分析 Prompt生成
+> -- 测试用例 Prompt生成
+> -- 冗余代码清理 Prompt生成
 
 最终输出为.prompt文件
